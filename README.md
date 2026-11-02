@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Brief Explanation of How the components are wired together:
+This is an React app using components which is a different way of expressing SoC (separation of concerns)
+which we touched on earlier this semester. Each of the components has a function, usually titled after
+the component's functionality, which returns the jxs markup which the component, as seen on the user end,
+is made up of. The header component aptly titled Header is used at the top of the main page, which is built
+in App.js. Following that, the page also includes the chocolateList component which is supposed to display
+cards for each chocolate. The chocolateList component does this by using the map method with the chocolates
+array to seed each card with the information for one chocolate. The cards are component too, satisfying our
+3 component requirement. ~ Michael
+
 ## Available Scripts
 
 In the project directory, you can run:
