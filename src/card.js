@@ -23,7 +23,8 @@ function Card({item})
             <h3 className="card-title">{item.name}</h3>
             <ul className="card-info-list">
                 <li>{item.description}</li>
-                <li>{item.ingredients}</li>
+                <br></br>
+                <li>Ingredients: {item.ingredients}</li>
             </ul>
 
             <button onClick={handleOpenModal}>View Calories</button>
